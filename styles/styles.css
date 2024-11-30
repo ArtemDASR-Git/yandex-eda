@@ -65,11 +65,7 @@ h1, h2 {
     line-height: 28px;
 }
 
-.header-subtitle {
-    margin-top: 20px;
-}
-
-.header-button {
+.courier-button {
     background-color: #F9E059;
     width: 398px;
     height: 77px;
@@ -79,7 +75,7 @@ h1, h2 {
     font-weight: 400;
 }
 
-.text-header {
+.delivery {
     width: 383px;
     height: 42px;
     size: 18px;
@@ -87,4 +83,19 @@ h1, h2 {
     margin-top: 24px;
     line-height: 21px;
     color: #656565;
+}
+
+.header .title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    margin-top: 225px;
+}
+
+.header .subtitle {
+    margin-top: 20px;
+}
+
+.subtitle span {
+    font-weight: 700;
 }
