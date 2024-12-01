@@ -105,12 +105,11 @@ h1, h2 {
 }
 
 .advantages-block {
-    width: 100%;
     height: 200px;
     border-radius: 15px;
-    margin-top: 20px;
     background-color: #EDEFF1;
     padding: 20px 0px 0px 20px;
+    flex-grow: 1;
 }
 
 .advantages-title {
@@ -122,4 +121,16 @@ h1, h2 {
     font-weight: 400;
     font-size: 18px;
     margin-top: 16px;
+}
+
+.advantages-content {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.advantages-block:first-child {
+    flex-basis: 100%;
+    background-color: #F9E059;
 }
