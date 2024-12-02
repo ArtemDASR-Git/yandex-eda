@@ -6,10 +6,11 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     font-family: "Roboto", sans-serif;
-    margin: 0px;
+    margin: 0;
     color: #000000;
+    padding-bottom: 122px;
 }
 button {
     font-family: "roboto";
@@ -144,4 +145,66 @@ h1, h2 {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.couriers {
+    margin-top: 120px;
+}
+
+.slider {
+    margin-top: 48px;
+}
+
+.slider-content {
+    display: flex;
+}
+
+.slider-block:not(:first-child) {
+    margin-left: 20px;
+}
+
+.slider-images {
+    border-radius: 5px;
+    display: block;
+}
+
+.slider-text-wriper {
+    border-radius: 5px;
+    background-color: #EDEFF1;
+    height: 172px;
+    padding: 20px;
+}
+
+.slider-title {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.44px;
+}
+
+.slider-text {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #656565;
+    letter-spacing: -0.44px;
+}
+
+.slider-pagination {
+    width: 60px;
+    margin: 24px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #EDEFF1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-bullet:hover {
+    background-color: #000000;
 }
